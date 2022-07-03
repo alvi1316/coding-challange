@@ -26,6 +26,12 @@ changes the directory to task folder where the react app is located
 
 Runs the app in the development mode on [http://localhost:3000](http://localhost:3000)
 
+If `'react-scripts' is not recognized as an internal or external command` Error occurs then run
+
+### `npm install react-scripts --save`
+
+Installs react-scripts
+
 ## Backend
 
 Place the `backend` folder inside `xampp/htdocs/` and start the Apache server. If you use any other servername or port than u need to change the baseUrl which is inside `App.js Line 9`
